@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>Brooklyn Outdoor Festival 2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./resource/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./resource/jumbotron.css" rel="stylesheet">
+
+	<!-- Social Media Icons and others-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="../index.html"><i class="fa fa-film" style="font-size:24px; color:yellow"> Home</i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" style="color:yellow">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html" style="color:yellow">Movies</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="news.html" style="color:yellow">News</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="signup.html" style="color:yellow">Registration</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:yellow">Partnerships</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://brooklyn.news12.com/">Brooklyn News Website</a>
+              <a class="dropdown-item" href="https://www.brooklynbridgepark.org">Brooklyn Bridge Park</a>
+            </div>
+          </li>
+        </ul>
+		<ul class="nav navbar-nav mt-2 mt-lg-0">
+			<li>
+				 <a class="nav-link text-warning" href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			</li>
+			<li>
+				 <a class="nav-link text-warning" href="http://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</li>
+			<li>
+				<a class="nav-link text-warning" href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			</li>
+		</ul>
+        <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+                <li class="dropdown order-1">
+                    <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle" style="color:yellow">Guest Login <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right mt-2">
+                       <li class="px-3 py-2">
+                           <form class="form">
+                                <div class="form-group">
+                                    <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="text" required="">
+                                </div>
+                                <div class="form-group">
+                                    <input id="passwordInput" placeholder="Name" class="form-control form-control-sm" type="text" required="">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+      </div>
+    </nav>
+
+	<div class="jumbotron text-center" style="background-color:black">
+	    	<h1 style="color:white">Just tell me!</h1>
+			<h1 style="color:white">Which movie would you like to see?</h1>
+	</div>
+
+<br />
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6" style="margin: 0px auto">
+				<form action="/action_page.php">
+    				<div class="form-group text-center">
+      					<label for="email"><strong>Email:</strong></label>
+      					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    				</div>
+					<div class="form-group text-center">
+      					<label for="email"><strong>Name</strong></label>
+      					<input class="form-control" placeholder="Enter name" name="name">
+    				</div>
+    				<div class="form-group text-center">
+      					<label for="email"><strong>Movie</strong></label>
+						<br />
+      					<select>
+  							<optgroup label="The Lord of the Rings">
+								<option value="None">None</option>
+						    	<option value="LOTR1">The Fellowship of the Ring</option>
+								<option value="LOTR2">The Two Towers</option>
+								<option value="LOTR3">The Return of the King</option>
+  							</optgroup>
+						</select>
+						<br />
+						<br />
+						<select>
+							<optgroup label="Star Wars">
+								<option value="None">None</option>
+								<option value="SW1">The Phantom Menace</option>
+								<option value="SW2">The Clone Wars</option>
+								<option value="SW3">The Revenge of the Sith</option>
+								<option value="SW4">A New Hope</option>
+								<option value="SW5">The Empire Strikes Back</option>
+								<option value="SW6">The Return of the Jedi</option>
+							</optgroup>
+						</select>
+						<select>
+  							<optgroup label="Pirates of the Caribbean">
+								<option value="None">None</option>
+						    	<option value="POTC1">The Curse of the Blackpearl</option>
+								<option value="POTC2">Dead Man's Chest</option>
+								<option value="POTC3">At World's End</option>
+  							</optgroup>
+						</select>
+						<br />
+						<br />
+						<select>
+  							<optgroup label="Tickets">
+								<option value="None">None</option>
+						    	<option value="T1">1 Person</option>
+								<option value="T2">2 People</option>
+								<option value="T3">3 People</option>
+								<option value="T4">More than 3 people</option>
+  							</optgroup>
+						</select>
+						<br />
+						<br />
+						<button id="singlebutton" name="singlebutton" class="btn btn-primary">I want in!</button> 
+					</div>
+  				</form>
+			<br />
+		</div>
+	</div>
+</div>
+
+	<footer>
+		<div class="jumbotron col-lg 12 col-md-12 col-sm-12 text-center" style="background-color:black">
+		      <p style="color:yellow">© Brooklyn Outdoor Festival 2017-2018</p>
+			  <p style="color:yellow">Iannetta Philippe</p>
+		</div>
+    </footer>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="resource/jquery-3.2.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="resource/popper.min.js"></script>
+    <script src="resource/bootstrap.min.js"></script>
+	<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+		<head>
+				<meta charset="UTF-8"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1"/>
+				<title>P6_Iannetta_Philippe</title>
+				<link href="css/stylesheet.css" rel="stylesheet"/>
+		</head>
+
+		<body>
+
+				<header>
+						<h1>Project 6</h1>
+						<h1><em>Dog Fight</em></h1>
+				</header>
+
+				<div class="flex-container">
+						<div id='game_board'></div>   
+						<aside id="player1_info_panel">
+								<h3>Player 1</h3>
+								<img src="img/player1-dog-icon.jpg" alt="player1-img" id='player1-img'>
+								<p id="life_1">Life Points: 100</p>
+								<p id="atk_power_1">Attack Power: 10</p>
+								<p id="def_power_1">Defense Power: false</p>
+								<button id="atk1">ATTACK</button>
+								<button id="def1">DEFEND</button>
+						</aside>
+						<aside id="player2_info_panel">
+								<h3>Player 2</h3>
+								<img src="img/player2-dog-icon.jpg" alt="player2-img" id='player2-img'>
+								<p id="life_2">Life Points: 100</p>
+								<p id="atk_power_2">Attack Power: 10</p>
+								<p id="def_power_2">Defense Power: false</p>
+								<button id="atk2">ATTACK</button>
+								<button id="def2">DEFEND</button>
+						</aside>
+				</div>
+				<button  id="new_game">NEW GAME</button>
+				<footer id="page_bottom">
+						<h3>©Iannetta Philippe</h3>
+						<h3>P6 Turn-Based Board Game</h3>
+						<h3>Front-end developer path</h3>
+						<h3>[openclassrooms.com]</h3>
+				</footer>
+
+				<script src="js/jquery-3.4.1.js"></script>
+				<script src="js/weapon.js"></script>
+				<script src="js/player.js"></script>
+				<script src="js/square.js"></script>
+				<script src="js/board.js"></script>
+				<script src="js/game.js"></script>
+				<script>
+						$(document).ready(function(){
+								let mygame = new Game();
+								$("#new_game").on("click", function(){
+										let mygame = new Game();
+										$('#game_board').css('opacity','');
+								});
+						});
+				</script>
+		</body>
+
+</html>

@@ -1,0 +1,72 @@
+[
+	{
+		"id" : 1,
+		"name":"Bronco",
+		"address":"39 Rue des Petites Écuries, 75010 ville-chelou",
+		"loc" : {
+			"lat":45.24555,
+			"lng":5.82285
+		},
+		"reviews": [{
+			"name": "abi",
+			"comment": "I am so satisfied",
+			"rating": 4
+		}]
+	},
+	{
+		"id" : 2,
+		"name":"Babalou",
+		"address":"4 Rue Lamarck, 75018 tier-monde-city",
+		"loc" : {
+			"lat":45.2417312,
+			"lng":5.823872
+		},
+		"reviews": [{
+			"name": "abi",
+			"comment": "Had an amazing lunch",
+			"rating": 5
+		}]
+	},
+	{
+		"id" : 3,
+		"name":"Yalami",
+		"address":"13 Rue Napoleon, 75038 destroyer-town",
+		"loc" : {
+			"lat":45.2496044,
+			"lng":5.822
+		},
+		"reviews": [{
+			"name": "abi",
+			"comment": "Happy meal",
+			"rating": 5
+		}]
+	},
+	{
+		"id" : 4,
+		"name":"French brasserie",
+		"address":"15 Rue de la Poste, Ici",
+		"loc" : {
+			"lat":45.2403,
+			"lng":5.82287
+		},
+		"reviews": [{
+			"name": "abi",
+			"comment": "I had fun big time",
+			"rating": 2
+		}]
+	},
+	{
+		"id" : 5,
+		"name":"English  Café",
+		"address":"16 avenue d'ailleurs, Là-bas-ville",
+		"loc" : {
+			"lat":45.2498312,
+			"lng":5.81111
+		},
+		"reviews": [{
+			"name": "abi",
+			"comment": "Trololul magical time",
+			"rating": 3.5
+		}]
+	}
+]

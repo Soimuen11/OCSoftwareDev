@@ -1,0 +1,9 @@
+depending on where the click happens, horizontal or vertical are incremented 1, 2 or 3 and the player move from 1 to 3 squares in one direction.
+
+
+
+method swap_weapon(){
+	//is there a weapon on that square? If yes, swap weapon. If not, do nothing.
+}
+
+if there's a weapon and a player -> player takes precedence!

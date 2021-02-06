@@ -1,0 +1,71 @@
+body{
+  text-align:center !important;
+  font-family: sans-serif;
+  background:#34495e;
+  color:#fff;
+  background-image: url("../wallhaven-191219.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.title{
+  padding-top:40px;
+  margin-bottom:50px;
+}
+
+.quote-box{    
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom:55px;
+  border-radius: 20px;
+  background-color: #4ADFCC;
+  margin-top: 10px;
+  color:black;
+  box-shadow: 2px 2px 2px 2px royalblue;
+}
+
+select, button{
+  border-radius:10px;
+  text-align: center;
+}
+
+blockquote {
+  border:none;
+  font-family:  Georgia, "Times New Roman", Times, serif;
+  margin-bottom:10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  }
+  
+  blockquote p {
+      font-size:21px;
+  }
+  
+  blockquote p:before { 
+      content: open-quote;
+      font-weight: bold;
+      font-size: 50px;
+      color:hsl(184, 87%, 33%);
+  } 
+  blockquote p:after { 
+      content: close-quote;
+      font-weight: bold;
+      font-size:50px;
+      color:hsl(184, 87%, 33%);;
+    
+  }
+
+.quote_area{
+  padding:10px;
+  font-size:30px;
+  margin-bottom:5px;
+  line-height: 100%;
+}
+
+#quote{
+  font-weight:bold;
+  font-style: italic; 
+  margin-top:0px;
+}
+
+

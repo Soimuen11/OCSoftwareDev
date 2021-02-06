@@ -1,0 +1,102 @@
+html, body
+{
+	height: 100%;
+	width:100%;
+}
+
+html
+{
+	font-family: Cantarell, "Times New Roman", Serif !important;
+	font-style:normal;
+}
+
+h1,h2,h3,h4
+{ 
+	text-align:center;
+}
+
+p
+{
+	padding-left:50px;
+	padding-right:50px;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img 
+{
+	width: 100% !important;
+	height: 100vh !important;
+}
+
+.carousel-caption 
+{
+	margin-bottom: 250px;
+	margin-top: 250px;
+}
+
+.carousel-caption
+{
+  text-shadow:10px 10px 20px black;
+  z-index: 1;
+}
+
+em
+{
+	font-weight:bold;
+	font-style:normal;
+}
+
+article
+{
+	text-align:justify !important;
+	text-justify: inter-word;
+}
+
+li
+{
+	list-style-type:none;
+}
+
+nav a:hover {
+  color: #FFC107;
+}*/
+
+/* Style all font awesome icons */
+.fa {
+	/*padding-top: 0px;*/
+	font-size: 23px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook 
+{
+    color: red;
+}
+
+/* Twitter */
+.fa-twitter 
+{
+    color: blue;
+}
+
+.fa-instagram 
+{
+	color: orange;
+}
+
+footer{
+	bottom: 0;
+	position: fixed;
+}
+
+
